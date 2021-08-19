@@ -510,11 +510,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09ab326f6225b13469bd38db1a41e08c, type: 3}
---- !u!1 &1388515844 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4689956411398918468, guid: 09ab326f6225b13469bd38db1a41e08c, type: 3}
+--- !u!114 &1388515845 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4689956411398918471, guid: 09ab326f6225b13469bd38db1a41e08c, type: 3}
   m_PrefabInstance: {fileID: 1388515843}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fcdcf617ec81eb4da88f623ccca5c43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1899940757
 GameObject:
   m_ObjectHideFlags: 0
@@ -743,13 +749,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1388515844}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1388515845}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: menuClickBtn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

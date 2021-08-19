@@ -5,18 +5,18 @@ using UnityEngine.AI;
 
 public class EnemyController : MonoBehaviour
 {
-    NavMeshAgent nav;
+    NavMeshAgent navenemy;
     bool follow;
-    Vector3 pos;
+    Vector3 position;
     // Start is called before the first frame update
     void Start()
     {
-        nav = GetComponent<NavMeshAgent>();
+        navenemy = GetComponent<NavMeshAgent>();
     }
     private void OnTriggerEnter(Collider other)
     {
         follow = true;
-        pos = other.transform.position;
+        position = other.transform.position;
         var health = GetComponent<Health>();
         if (health != null)
         {
@@ -28,7 +28,7 @@ public class EnemyController : MonoBehaviour
     {
         if (follow)
         {
-            nav.SetDestination(pos);
+            navenemy.SetDestination(position);
 
         }
     }

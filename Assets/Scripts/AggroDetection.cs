@@ -9,7 +9,7 @@ public class AggroDetection : MonoBehaviour
     public event Action<Transform> OnAggro = delegate { };
     private void OnTriggerEnter(Collider other)
     {
-        var player = other.GetComponent<PlayerController>();
+        var player = other.GetComponent<PlayerMove>();
         if (player != null)
         {
             //Debug.Log("Aggro detector");

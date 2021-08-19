@@ -1,16 +1,15 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyShooting : MonoBehaviour
+public class EnemyShoot : MonoBehaviour
 {
     AggroDetection aggroDetect;
     private Health healthTarget;
     [SerializeField]
     private float attackTimer;
     [SerializeField]
-    private float attackRefreshRate=1f;
+    private float attackRefreshRate = 1f;
 
     private void Awake()
     {
@@ -25,6 +24,10 @@ public class EnemyShooting : MonoBehaviour
         {
             healthTarget = health;
         }
+    }
+    private bool CanAttack()
+    {
+        return attackTimer >= attackRefreshRate;
     }
     private void Update()
     {
@@ -44,8 +47,5 @@ public class EnemyShooting : MonoBehaviour
         healthTarget.Damage(1);
     }
 
-    private bool CanAttack()
-    {
-        return attackTimer >= attackRefreshRate;
-    }
+   
 }

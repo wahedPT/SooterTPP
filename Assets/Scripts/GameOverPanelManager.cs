@@ -7,10 +7,7 @@ public class GameOverPanelManager : MonoBehaviour
 {
     public void Replay()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(1);
     }
-    public void MainMenu()
-    {
-        SceneManager.LoadScene(0);
-    }
+
 }

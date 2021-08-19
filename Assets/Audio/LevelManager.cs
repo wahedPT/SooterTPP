@@ -43,4 +43,11 @@ public class LevelManager : MonoBehaviour
     {
         SceneManager.LoadScene(3);
     }
+    public void menuClickBtn()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+   
+
 }
