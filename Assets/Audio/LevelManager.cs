@@ -48,6 +48,16 @@ public class LevelManager : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-   
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.name == "Player")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        //else
+        //{
+        //    Debug.Log("khsvakncfhihfao");
+        //}
+    }
 
 }

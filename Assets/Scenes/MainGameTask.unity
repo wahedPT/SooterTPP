@@ -10324,6 +10324,7 @@ GameObject:
   - component: {fileID: 390393527}
   - component: {fileID: 390393526}
   - component: {fileID: 390393525}
+  - component: {fileID: 390393524}
   m_Layer: 0
   m_Name: Winpoint
   m_TagString: Untagged
@@ -10331,6 +10332,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &390393524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390393523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fcdcf617ec81eb4da88f623ccca5c43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoLoadLevelTimer: 0
 --- !u!65 &390393525
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10339,7 +10353,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 390393523}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -10351,7 +10365,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 390393523}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
