@@ -11,7 +11,7 @@ public class GunController : MonoBehaviour
     [SerializeField] Transform firePoint;
     [SerializeField] ParticleSystem particle;
     AudioSource audioSource;
-    [SerializeField] AudioClip audioClip;
+    public AudioClip audioClip;
     // Start is called before the first frame update
     void Start()
     {

@@ -649,7 +649,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 0.30588236}
+      maxColor: {r: 0.8584906, g: 0.1579299, b: 0.1579299, a: 0.30588236}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -5492,7 +5492,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 0.8773585, g: 0.086908154, b: 0.086908154, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -11583,7 +11583,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 0.8962264, g: 0.10568706, b: 0.10568706, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -17043,17 +17043,65 @@ PrefabInstance:
       propertyPath: InitialModule.maxNumParticles
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 198057225787543630, guid: b3c4dea4e11db384fb9b4d2fc188d380, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.086908154
+      objectReference: {fileID: 0}
+    - target: {fileID: 198057225787543630, guid: b3c4dea4e11db384fb9b4d2fc188d380, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.086908154
+      objectReference: {fileID: 0}
+    - target: {fileID: 198057225787543630, guid: b3c4dea4e11db384fb9b4d2fc188d380, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.8773585
+      objectReference: {fileID: 0}
     - target: {fileID: 198385969350522728, guid: b3c4dea4e11db384fb9b4d2fc188d380, type: 3}
       propertyPath: playOnAwake
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198385969350522728, guid: b3c4dea4e11db384fb9b4d2fc188d380, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.087086126
+      objectReference: {fileID: 0}
+    - target: {fileID: 198385969350522728, guid: b3c4dea4e11db384fb9b4d2fc188d380, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.087086126
+      objectReference: {fileID: 0}
+    - target: {fileID: 198385969350522728, guid: b3c4dea4e11db384fb9b4d2fc188d380, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.9716981
       objectReference: {fileID: 0}
     - target: {fileID: 198795910024638438, guid: b3c4dea4e11db384fb9b4d2fc188d380, type: 3}
       propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 198795910024638438, guid: b3c4dea4e11db384fb9b4d2fc188d380, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.1579299
+      objectReference: {fileID: 0}
+    - target: {fileID: 198795910024638438, guid: b3c4dea4e11db384fb9b4d2fc188d380, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.1579299
+      objectReference: {fileID: 0}
+    - target: {fileID: 198795910024638438, guid: b3c4dea4e11db384fb9b4d2fc188d380, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.8584906
+      objectReference: {fileID: 0}
     - target: {fileID: 198878074453378804, guid: b3c4dea4e11db384fb9b4d2fc188d380, type: 3}
       propertyPath: playOnAwake
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198878074453378804, guid: b3c4dea4e11db384fb9b4d2fc188d380, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.10568706
+      objectReference: {fileID: 0}
+    - target: {fileID: 198878074453378804, guid: b3c4dea4e11db384fb9b4d2fc188d380, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.10568706
+      objectReference: {fileID: 0}
+    - target: {fileID: 198878074453378804, guid: b3c4dea4e11db384fb9b4d2fc188d380, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.8962264
       objectReference: {fileID: 0}
     - target: {fileID: 199092481745641970, guid: b3c4dea4e11db384fb9b4d2fc188d380, type: 3}
       propertyPath: m_Materials.Array.size
@@ -17366,7 +17414,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 0.30588236}
+      maxColor: {r: 0.9716981, g: 0.087086126, b: 0.087086126, a: 0.30588236}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
