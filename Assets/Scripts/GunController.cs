@@ -31,6 +31,7 @@ public class GunController : MonoBehaviour
                 particle.Play();
                 timer = 0;
                 FireGun();
+              
             }
             
         }
@@ -38,7 +39,7 @@ public class GunController : MonoBehaviour
 
     private void FireGun()
     {
-        Debug.DrawRay(Camera.main.transform.position,Camera.main.transform.forward*50, Color.blue ,2f);
+        Debug.DrawRay(Camera.main.transform.position,Camera.main.transform.forward*50, Color.red ,2f);
         Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
         RaycastHit hit;
         if(Physics.Raycast(ray,out hit, 100))
@@ -47,6 +48,7 @@ public class GunController : MonoBehaviour
             if (health != null)
             {
                 health.Damage(1);
+                ScoreTimeM.Scorevalue += 1;
             }
         }
     }

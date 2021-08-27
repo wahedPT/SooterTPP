@@ -44,7 +44,7 @@ public class EnemyShoot : MonoBehaviour
     private void Attack()
     {
         attackTimer = 0f;
-        healthTarget.Damage(1);
+       
     }
 
    

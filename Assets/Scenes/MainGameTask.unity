@@ -304,7 +304,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 22687414}
   m_LocalRotation: {x: 0.034419905, y: -0.0043071765, z: 0.00014832967, w: 0.9993982}
-  m_LocalPosition: {x: -23.630001, y: -97.6, z: -56.92}
+  m_LocalPosition: {x: -23.630001, y: -78.53, z: -56.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10312,6 +10312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScoreTExt: {fileID: 383651222}
   HighScoreText: {fileID: 0}
+  highscore: 0
 --- !u!1 &390393523
 GameObject:
   m_ObjectHideFlags: 0
@@ -10365,7 +10366,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 390393523}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -10468,7 +10469,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 422211465}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -24, y: -100.54, z: -54.6}
+  m_LocalPosition: {x: -24, y: -81.47, z: -54.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 460662506}
@@ -10488,7 +10489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4224b31fd75d5fd46b19d807c9c5f111, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 15
+  playerSpeed: 5
   rotateSpeed: 40
   backSpeed: 10
 --- !u!114 &422211469
@@ -16470,7 +16471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9cd5aa35488034a8409c7cff3ac945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTimer: 0
+  attackTimer: 2
   attackRefreshRate: 1
 --- !u!114 &1042905960
 MonoBehaviour:
@@ -16589,7 +16590,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119731958}
   m_LocalRotation: {x: 0.034419905, y: -0.0043071765, z: 0.00014832967, w: 0.9993982}
-  m_LocalPosition: {x: -23.630001, y: -97.6, z: -56.92}
+  m_LocalPosition: {x: -23.630001, y: -78.53, z: -56.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1167400387}
